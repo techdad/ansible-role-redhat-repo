@@ -1,6 +1,9 @@
-# ansible-role-redhat-repo
+# Ansible Role: Redhat repo(s)
 
 Add additional yum repositories.
+
+* Fork of [reallyenglish.redhat-repo](https://github.com/reallyenglish/ansible-role-redhat-repo).
+* Small updates for newer Ansible and to create pull-request(s) with.
 
 # Requirements
 
@@ -27,7 +30,8 @@ None
 
 # Example Playbook
 
-```yaml
+```
+yaml
 - hosts: localhost
   roles:
     - ansible-role-redhat-repo
@@ -59,6 +63,5 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 # Author Information
 
-Tomoyuki Sakurai <tomoyukis@reallyenglish.com>
-
-This README was created by [ansible-role-init](https://gist.github.com/trombik/d01e280f02c78618429e334d8e4995c0)
+* Tomoyuki Sakurai <tomoyukis@reallyenglish.com>
+* Daniel Shaw <daniel@techdad.xyz>
